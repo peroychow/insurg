@@ -67,7 +67,8 @@
     </div><!-- ./wrapper -->
 
     <!-- REQUIRED JS SCRIPTS -->
-
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
     <!-- jQuery 2.1.3 -->
     <script src="{{ asset ("/bower_components/AdminLTE/plugins/jQuery/jQuery-2.1.3.min.js") }}"></script>
     <!-- Bootstrap 3.3.2 JS -->

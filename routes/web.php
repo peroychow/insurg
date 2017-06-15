@@ -22,3 +22,9 @@ Route::get('/read/{id}', 'ArticleController@show');
 Route::get('/edit/{id}', 'ArticleController@edit');
 Route::post('/update/{id}', 'ArticleController@update');
 Route::get('/delete/{id}','ArticleController@destroy');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/listuser', 'UserController@index');
